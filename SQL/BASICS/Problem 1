@@ -1,0 +1,23 @@
+# Problem 1: Basic SELECT Query
+
+# Problem: Select American Cities with Population Greater Than 100,000.
+
+## Objective
+Write an SQL query to select all columns for every American city in the `CITY` table that has a population 
+larger than 100,000. The CountryCode for America is 'USA'.
+
+## Problem Statement
+Given a table named CITY with the following columns:
+- ID
+- NAME
+- COUNTRYCODE
+- DISTRICT
+- POPULATION
+
+Task is to retrieve all columns for cities where:
+- CountryCode equals 'USA', and
+- Population is greater than 100000.
+
+## Approach and Solution
+- Use the 'SELECT' statement to retrieve all columns.
+- Use the 'WHERE' clause to filter out records where population is greater than 100000.
